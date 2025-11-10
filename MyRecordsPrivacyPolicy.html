@@ -30,7 +30,7 @@
 </head>
 <body>
   <h1>Privacy Policy for MyRecords</h1>
-  <p><strong>Effective date:</strong>10 November 2025</p>
+  <p><strong>Effective date:</strong> [Insert Date]</p>
   <p><strong>Developer:</strong> Triphosa Apps<br>
      <strong>Contact:</strong> <a href="mailto:triphosa01@gmail.com">triphosa01@gmail.com</a></p>
 
@@ -45,21 +45,22 @@
 
     <h3>a. Location Data</h3>
     <p>The App accesses your device’s GPS location to display your current position as an OS grid reference (within the UK) or as latitude and longitude coordinates (outside the UK).</p>
-    <p>When you first use the App, <strong>Android will ask for your permission to allow MyRecords to access your device’s location</strong>. You can choose whether to grant or deny this permission. The App cannot determine your position or save a location-based record without this access.</p>
+    <p>When you first use the App, <strong>Android will ask for your permission to allow MyRecords to access your device’s location</strong>. You can choose whether to grant or deny this permission. The App cannot determine your position or save a location-based record without it.</p>
     <p>Location data is processed <strong>only on your device</strong> and is <strong>never transmitted or shared</strong> with the developer or any third parties.</p>
 
     <h3>b. User-Entered Information</h3>
     <p>You can enter your own notes or information as part of each record. These records are stored locally in daily CSV files in your device’s Documents folder. You have full control over these files and can open, share, or delete them as you wish. No record content is uploaded or shared externally.</p>
 
-    <h3>c. Analytics Data (User-Consented)</h3>
-    <p>MyRecords uses Google Analytics for Firebase to collect anonymous usage data, such as app version, crash reports, and device type. This analytics feature is optional:</p>
+    <h3>c. Analytics Data (Firebase)</h3>
+    <p>MyRecords uses <strong>Google Firebase Analytics</strong> to collect anonymous usage information that helps understand how the app is used and to improve its performance.</p>
+    <p>The data collected includes information such as:</p>
     <ul>
-      <li>When you first launch the app, you are asked whether you agree to share anonymous usage data.</li>
-      <li>If you consent, anonymized data will be sent to Google Analytics.</li>
-      <li>If you do not consent, or later withdraw consent, no analytics data will be collected or transmitted.</li>
-      <li>You can change your consent at any time from the Help section of the App.</li>
+      <li>App version and interactions with app screens and features</li>
+      <li>Device type and operating system version</li>
+      <li>Crash reports and performance metrics</li>
     </ul>
-    <p>Analytics data never includes your location or record information and uses only a randomly generated device identity (GUID).</p>
+    <p>Firebase Analytics automatically generates an <strong>App Instance ID</strong> to differentiate anonymous app installations. This ID is not linked to any personally identifiable information and does not allow the developer to identify individual users.</p>
+    <p>Analytics data is processed by Google in aggregated form and is governed by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google’s Privacy Policy</a>.</p>
   </section>
 
   <section>
@@ -67,25 +68,25 @@
     <ul>
       <li>Display your current location within the app.</li>
       <li>Save and manage your location-based records locally.</li>
-      <li>Improve app performance and fix bugs through anonymous, consented analytics.</li>
+      <li>Improve app performance and stability through aggregated analytics and crash reports.</li>
     </ul>
   </section>
 
   <section>
     <h2>4. Data Sharing and Disclosure</h2>
-    <p>We do not share or sell any personal, location, or record data. The only third-party service is Google Analytics for Firebase, which receives anonymous usage data only if you have consented.</p>
+    <p>The developer does not share, sell, or transmit any personal or location data. Usage analytics are processed by Google Firebase as described above, in accordance with Google’s privacy and security practices.</p>
   </section>
 
   <section>
     <h2>5. Storage and Security</h2>
-    <p>All user records are stored locally on your device. You have complete control over your data and may delete it at any time. The developer does not access or store any user content externally.</p>
+    <p>All user records are stored locally on your device. You have complete control over your data and may delete it at any time. The developer does not have access to or store any user-generated content.</p>
   </section>
 
   <section>
     <h2>6. Permissions</h2>
     <p>The App requests the following permissions:</p>
     <ul>
-      <li><strong>Location (GPS):</strong> Required to determine and display your current position. You will be asked by Android to grant this permission before the App can access your location.</li>
+      <li><strong>Location (GPS):</strong> Required to determine and display your current position. Android will ask you to grant this permission before the App can access your location.</li>
       <li><strong>Storage (read/write):</strong> Used to save your CSV records in your Documents folder.</li>
     </ul>
     <p>These permissions are used solely for the functionality described above.</p>
@@ -100,9 +101,8 @@
     <h2>8. Your Privacy Choices</h2>
     <ul>
       <li>View, open, and delete your locally stored CSV records.</li>
-      <li>Withdraw or grant consent for anonymous analytics at any time in the Help section.</li>
       <li>Manage or revoke location permission at any time through your device’s Settings.</li>
-      <li>Uninstalling the App does not delete the stored record data.</li>
+      <li>Uninstalling the App will delete all stored data and stop any analytics collection from that device.</li>
     </ul>
   </section>
 
